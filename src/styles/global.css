@@ -20,6 +20,26 @@ h1 {
   font-size: 2.5rem;
 }
 
+a {
+  text-decoration: none;
+  color: #00539f;
+}
+
+a:visited {
+  text-decoration: nonce;
+  color: #00539f;
+}
+
+.dark a {
+  text-decoration: nonce;
+  color: #5687b5;
+}
+
+.dark a:visited {
+  text-decoration: nonce;
+  color: #5687b5;
+}
+
 /* nav styles */
 
 .hamburger {
@@ -80,4 +100,17 @@ h1 {
   .hamburger {
     display: none;
   }
+}
+
+html.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+.dark .nav-links a:visited {
+  color: #fff;
 }
